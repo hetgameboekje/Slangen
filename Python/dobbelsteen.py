@@ -1,9 +1,11 @@
 import random
-min = 1
-max = 6
 
-raw_input = input("Roll the dices again?")
-while roll_again == "yes" or roll_again == "y":
-    print (random.randint(min, max))
-    print (random.randint(min, max))
-    roll_again = input("Roll the dices again?")
+def rollen(min, max):
+    while True:
+        print(f"Jouw dobbelsteen is {random.randint(min, max)}")
+        # answer = input("Wil je nog een keer rollen? (y/n) ")
+        # if answer == "n":
+        #     break
+
+rollen(1, 6)
+   
