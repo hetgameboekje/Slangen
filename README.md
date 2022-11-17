@@ -1,5 +1,6 @@
 # Alle opdrachten python
-## Wil je iemand toevoegen , geef het dan door aan Timo.
+## Wil je iemand toevoegen , geef het dan door aan Timo. 
+## Heb je een opdracht afgerond? Voeg hier onder welke opdracht je af hebt
 ## Hier is een lijst met alle opdrachten:
 ### 1. Rekenmachine (3) 
 ### 2. Getallen (2)
