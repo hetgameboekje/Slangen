@@ -7,9 +7,17 @@ def getal():
     for i in range(aantal):
         print(random.randint(1,6))
 
-#geef gebruiker het aantal ogen van de dobbelstenen
-getal()
-#vraag gebruiker of hij nog een keer wil gooien
 
-#als gebruiker ja zegt, doe het nog een keer
-#als gebruiker nee zegt, stop
+getal()
+#functie om gebruiker te vragen of ze het opnieuw willen doen
+
+def opnieuw():
+    opnieuw = input("Wil je nog een keer gooien? (ja/nee) ")
+    if opnieuw == "ja":
+        getal()
+        opnieuw()
+    elif opnieuw == "nee":
+        print("Bedankt voor het spelen!")
+    else:
+        print("Ongeldige invoer")
+        opnieuw()
