@@ -10,6 +10,6 @@
 ### 6. Rijbewijs nr 1 (2)
 ### 9. Woord draaien (1)
 ### 10. Delen (1)
-### 21. Roulette (4)
+### 21. Roulette (4) - mist paar eisen
 ## Totaal aantal behaalde punten: 20 punten
 ## Maximaal behaalbaren punten : 55 punten
