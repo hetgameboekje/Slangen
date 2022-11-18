@@ -6,7 +6,7 @@ totaalchips = (totaalchips + winchips)
 print("je hebt", totaalchips, "chips totaal!")
 print("-=-=-=-=-=-=-=-=-=-=-")
 
-rollguess = random.randint(1,2)
+rollguess = random.randint(1,5)
 
 roll = int(input('Place your bet, 1-5: '))
 print('-=-=-=-=-=-=-=-=-=-=-')
