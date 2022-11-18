@@ -1,3 +1,7 @@
+#Bron van de code https://www.geeksforgeeks.org/python-program-for-quicksort/
+
+
+
 # Python program for implementation of Quicksort Sort
 
 # This implementation utilizes pivot as the last element in the nums list
