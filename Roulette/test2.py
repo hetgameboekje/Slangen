@@ -17,5 +17,5 @@ if roll == rollguess:
         
 else:
         print("Spel rolde:", rollguess)
-        totaalchips = (totaalchips - totaalchips)
+        totaalchips = 0
         print("je hebt verloren, je hebt", totaalchips, "chips totaal! ")
