@@ -4,7 +4,6 @@ totaalchips = 10
 winchips = 35
 inzet = 1
 
-
 print("je hebt", totaalchips, "chips totaal!")
 print("Je kan 35 chips winnen, Totaal is dit", totaalchips + winchips, "chips")
 print("-=-=-=-=-=-=-=-=-=-=-")
