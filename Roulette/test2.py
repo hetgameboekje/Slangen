@@ -13,10 +13,7 @@ for i in range(totaalchips):
         rollguess = random.randint(1, 2)
 
         inzet = int(input('hoeveel chips wil je inzetten? '))
-        if inzet != int:
-                print("Je moet een getal invoeren!")
-                break
-        elif inzet > totaalchips:
+        if inzet > totaalchips:
             print("Je hebt niet genoeg chips!")
             break
         roll = int(input('Place your bet, 1-36: '))
