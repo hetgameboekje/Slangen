@@ -7,3 +7,6 @@ print("Hier de getallen gedeeld door elkaar:")
 antwoord = (getal / getal2 / getal3)
 uitkomst = round(antwoord,4)
 print(uitkomst)
+
+# geasdo 
+# csdfsdf sdf
