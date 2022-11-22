@@ -12,12 +12,12 @@ print("-=-=-=-=-=-=-=-=-=-=-")
 for i in range(totaalchips):
         rollguess = random.randint(1, 2)
 
+        inzet = int(input('hoeveel chips wil je inzetten? '))
         roll = int(input('Place your bet, 1-36: '))
         print('-=-=-=-=-=-=-=-=-=-=-')
         if roll == rollguess:
-                totaalchips = (totaalchips + winchips)
+                totaalchips = (totaalchips + (winchips*inzet))
                 print("Gefeliciteerd! je succesvol geraden, je hebt", totaalchips, "chips totaal!")
-
         else:
                 print("Spel rolde:", rollguess)
                 totaalchips = (totaalchips - inzet)
