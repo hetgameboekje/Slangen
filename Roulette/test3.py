@@ -5,17 +5,17 @@ def play_game():
     totaalchips = 10
     winchips = 35
     inzet = 1
-
+    print("-=-=-=-=-=-=-=-=-=-=-")
     print("je hebt", totaalchips, "chips totaal!")
     print("Je kan 35 chips winnen, Totaal is dit", totaalchips + winchips, "chips")
     print("-=-=-=-=-=-=-=-=-=-=-")
 
     for i in range(totaalchips):
+            if totaalchips < 0:
+                break
             rollguess = random.randint(1, 2)
-
-            inzet = (input('hoeveel chips wil je inzetten? '))
-            inzet = int(inzet)
-            if inzet > totaalchips:
+            inzet = int(input('hoeveel chips wil je inzetten? '))
+            if inzet > totaalchips or totaalchips < 0: 
                 print("Je hebt niet genoeg chips!")
                 break
             roll = int(input('Place your bet, 1-36: '))
@@ -29,6 +29,7 @@ def play_game():
                     print("Spel rolde:", rollguess)
                     totaalchips = (totaalchips - inzet)
                     print("je hebt verloren, je hebt", totaalchips, "chips totaal! ")
+
 
               
 def play_again():
