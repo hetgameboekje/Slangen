@@ -2,9 +2,9 @@ import datetime
 now = datetime.datetime.now()
 print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
-print("1 april 2018 = 20180401")
+print("1 april 2018 = 01042018")
 s = input("whats your birthday")
-s_datetime = datetime.datetime.strptime(s, '%Y%m%d')
+s_datetime = datetime.datetime.strptime(s, '%d%m%y')
 print (s_datetime)
 while True:
     if s_datetime < now:
